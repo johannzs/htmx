@@ -1,0 +1,10 @@
+<script src="https://unpkg.com/htmx.org@1.9.4" integrity="sha384-zUfuhFKKZCbHTY6aRR46gxiqszMk5tcHjsVFxnUo8VMus4kHGVdIYVbOYYNlKmHV" crossorigin="anonymous"></script>
+<div id="parent-div">
+</div>
+  <button hx-post="/test"
+      hx-trigger="click"
+      hx-target="#parent-div"
+      hx-swap="outerHTML"
+  >
+      Click Me!
+  </button>
